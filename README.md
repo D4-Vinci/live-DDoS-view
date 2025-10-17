@@ -52,3 +52,83 @@ Each arc is a digital battle, a spark of information, and a story in motion.
 
 ## 🗺️ System Architecture
 
+[ MySQL DB ]
+↑
+| (attack generator)
+[ Node.js Backend ]
+↓
+(WebSocket)
+↓
+[ HTML / Globe.gl Frontend ]
+↓
+🌍 Live visualization
+
+
+---
+
+## ⚙️ Installation Guide
+
+### 🧩 1. Clone this Repository
+```bash
+git clone https://github.com/D4-Vinci/live-DDoS-view.git
+cd live-DDoS-view
+```
+
+###🧱 2. Setup the Database
+```
+sudo mysql -u root -p < cyberglobe_schema.sql
+```
+
+###💡 3. Install Dependencies
+```
+npm install
+```
+
+###🌐 4. Run Backend Server
+```
+node server/server.js
+```
+
+###🧭 5. Open the Frontend
+Open `index.html` in your browser,
+or use a simple static server:
+```
+npx serve
+```
+
+| Attack Type             | Color     |
+| ----------------------- | --------- |
+| 🧨 DDoS                 | 🔴 Red    |
+| 🎣 Phishing             | 🟠 Orange |
+| 🦠 Malware              | 🟢 Green  |
+| 💣 Ransomware           | 🟣 Purple |
+| 💉 SQL Injection        | 🔵 Blue   |
+| 🌑 Zero-Day             | 🌸 Pink   |
+| 🤖 Botnet               | 🟪 Violet |
+| 🧟 Trojan               | 🟡 Yellow |
+| 🗝️ Credential Stuffing | 🟩 Lime   |
+
+##🪐 Preview
+
+✨ Your screen becomes a living map of the cyber realm.
+
+###👨‍🚀 Contribute
+
+1) Fork the repo
+
+2 )Create your feature branch:
+```
+git checkout -b feature/amazing-feature
+```
+
+3) Commit your changes
+
+4) Push to your fork and open a Pull Request 🚀
+
+<div align="center">
+##🌌 Open Source Space
+
+We believe knowledge and defense should orbit freely.
+Made with ❤️ by D4-Vinci
+and powered by curiosity, caffeine, and chaos.
+</div> ```
