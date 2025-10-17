@@ -74,22 +74,22 @@ git clone https://github.com/D4-Vinci/live-DDoS-view.git
 cd live-DDoS-view
 ```
 
-###🧱 2. Setup the Database
+### 🧱 2. Setup the Database
 ```
 sudo mysql -u root -p < cyberglobe_schema.sql
 ```
 
-###💡 3. Install Dependencies
+### 💡 3. Install Dependencies
 ```
 npm install
 ```
 
-###🌐 4. Run Backend Server
+### 🌐 4. Run Backend Server
 ```
 node server/server.js
 ```
 
-###🧭 5. Open the Frontend
+### 🧭 5. Open the Frontend
 Open `index.html` in your browser,
 or use a simple static server:
 ```
@@ -108,15 +108,15 @@ npx serve
 | 🧟 Trojan               | 🟡 Yellow |
 | 🗝️ Credential Stuffing | 🟩 Lime   |
 
-##🪐 Preview
+## 🪐 Preview
 
 ✨ Your screen becomes a living map of the cyber realm.
 
-###👨‍🚀 Contribute
+### 👨‍🚀 Contribute
 
 1) Fork the repo
 
-2 )Create your feature branch:
+2) Create your feature branch:
 ```
 git checkout -b feature/amazing-feature
 ```
@@ -126,7 +126,7 @@ git checkout -b feature/amazing-feature
 4) Push to your fork and open a Pull Request 🚀
 
 <div align="center">
-##🌌 Open Source Space
+## 🌌 Open Source Space
 
 We believe knowledge and defense should orbit freely.
 Made with ❤️ by D4-Vinci
