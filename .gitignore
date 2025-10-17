@@ -1,0 +1,15 @@
+# Node modules
+/node_modules/
+
+# Environment files (store passwords/secrets)
+.env
+
+# Database dump files (optional)
+*.sql
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

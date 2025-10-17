@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cyber Attack Globe</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+<script src="https://unpkg.com/globe.gl"></script>
+</head>
+<body>
+<div class="app-container">
+  <!-- Globe -->
+  <div id="globe"></div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Live Attack Console</h2>
+
+    <!-- Controls: Pause + Filters -->
+    <div class="controls">
+      <button id="toggle-live">Pause</button>
+      <input type="text" id="filter-source" placeholder="Filter source country" />
+      <input type="text" id="filter-victim" placeholder="Filter victim country" />
+      <input type="text" id="filter-type" placeholder="Filter attack type" />
+      <label>From: <input type="datetime-local" id="filter-from"></label>
+      <label>To: <input type="datetime-local" id="filter-to"></label>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend-container"></div>
+
+    <!-- Live Table -->
+    <div class="live-table-container">
+      <table id="attack-table">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Victim</th>
+            <th>Type</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
