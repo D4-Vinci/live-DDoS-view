@@ -125,10 +125,11 @@ git checkout -b feature/amazing-feature
 
 4) Push to your fork and open a Pull Request 🚀
 
-<div align="center">
-## 🌌 Open Source Space
+<div align="center">  
+
+## 🌌Open Source Space
 
 We believe knowledge and defense should orbit freely.
 Made with ❤️ by D4-Vinci
 and powered by curiosity, caffeine, and chaos.
-</div> ```
+</div> 
